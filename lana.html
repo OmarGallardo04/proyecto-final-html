@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lana Del Rey - Cantantes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+            max-width: 300px;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .custom-box {
+            background-color: lightgray;
+            border: 1px solid lightslategray;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -16,25 +44,107 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">SPOTIFY</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/proyecto_final.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TIENDA OFICIAL</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/taylor.html">TAYLOR SWIFT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WIKIPEDIA</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/the_weeknd.html">THE WEEKND</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://open.spotify.com/intl-es/artist/00FQb4jTyendYWaN8pK0wa?play=true&utm_source=open.spotify.com&utm_medium=open">SPOTIFY</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.lanadelrey.com/">TIENDA OFICIAL</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://es.wikipedia.org/wiki/Lana_Del_Rey">WIKIPEDIA</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
-            <h1 class="display-4">LOS MEJORES CANTANTES</h1>
+            <h1 class="display-4">LANA DEL REY</h1>
         </div>
     </div>
-    
+
+    <div class="container mt-5">
+        <div class="image-container">
+            <div class="col-md-3 col-sm-6">
+                <img src="https://m.media-amazon.com/images/I/71v9YKQxm2L._UF1000,1000_QL80_.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://yt3.googleusercontent.com/o5_mjwl7QSyLQBguYioDM3wB4POD7tFbCOmBJn5SdpwZ5QvmrzoDG_lM_hgRma6qVKPHwqUJ2q8=s900-c-k-c0x00ffffff-no-rj" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/lana-del-rey-attends-the-60th-annual-grammy-awards-at-madison-square-garden-on-january-28-2018-in-new-york-city-photo-by-dimitrios-kambouris_getty-images-for-naras-square.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://pbs.twimg.com/profile_images/1638717950415839233/xqFHENaP_400x400.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPt0zUsiXzDCm5mljphp3dt8XbBRLbOz6blA&s" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://lastfm.freetls.fastly.net/i/u/ar0/b2c1413fa5951862b8e320dfafc8cdba.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://m.media-amazon.com/images/I/71ZvezJ2OoL._UF1000,1000_QL80_.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://m.media-amazon.com/images/I/61ZjOsOrYNL._SY200_QL15_.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/08/Lana_Del_Ray_-_Lana_Del_Ray_%282010%29.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="custom-box">
+                    <h2 class="text-center">BIBLIOGRAFIA</h2>
+                    <p class="text-justify">
+                        Elizabeth Woolridge Grant (Nueva York, 1985), de nombre artístico Lana Del Rey, es una cantante y compositora cuyo estilo ha sido definido por los críticos como ‘Vintage’ dada la temática y estilo de sus letras, que versan sobre el romance trágico con toques melancólicos y referencias a la cultura pop de las décadas 50 y 60. <br><br>
+
+                        Tras una temprana adolescencia marcada por su adicción al alcohol, completamente superada tras pasar por un internado privado en Connecticut, con 18 años volvió a Nueva York y, tras recibir clases de guitarra por parte de su tío, comenzó a presentarse en clubes del condado de Brooklyn, al tiempo que estudiaba Metafísica en la Universidad de Fordham. <br><br>
+                        
+                        Entre los años 2005-2006 registró un álbum de 7 temas titulado Elizabeth Woolridge Grant en la Oficina de Derechos de Autor estadounidense y también publicó el disco  Sirens. Tras actuar para el Williamsburg Live Songwriting Competition conoció a Van Wilson, del sello independiente A&R rep for 5 Points Records, y realizó algún trabajo de descarga digital. <br><br>
+                        
+                        En 2009 adquirió su nombre artístico actual y lanzó a la venta en descarga digital Lana del Ray a.k.a. Lizzy Grant que poco después pidió retirar del mercado por su insatisfacción tanto en número de canciones como en nombre, pues se publicó como Ray y no Rey. <br><br>
+                        
+                        2011 sería un gran año para la artista neoyorkina, que de la mano de la discográfica Stranger Records lanzó su primer sencillo, Video Games, cuyo video fue dirigido y editado por ella misma. Su éxito le valió firmar un contrato también con las discográficas Polydor e Interscope Records, con los que lanzó su álbum Born to die un año después. El debut de este álbum no pudo ser tener una mejor acogida, alzándose con el número 1 en Reino Unido en su primera semana. De él se extrajeron los sencillos Born to die, Blue jeans y Summertine Sadness. <br><br>
+                        
+                        El éxito obtenido la hizo ganadora del premio Brit Award a Artista solista femenina internacional en 2013 y algunas de sus canciones fueron parte de bandas sonoras de películas como es el caso de como Young & Beautiful (El Gran Gatsby) y Big Eyes (película homónima biográfica de Tim Burton). <br><br>
+                        
+                        Desde ese momento su carrera fue en ascenso, lanzando dos álbumes número uno en la lista Billboard, Ultraviolence (2014) y Lust for Life (2017), junto con los lanzamientos top-ten Paradise (2012) y Honeymoon (2015). Por Paradise y Lust for Life fue nominada al Grammy a Mejor Álbum Vocal Pop. <br><br>
+                        
+                        Norman Fucking Rockwell (2019) se convirtió en su mayor éxito, gracias a a envolventes y sensuales canciones como sus singles Mariners Apartment Complex y Venice Bitch. y fue incluido por la revista Rolling Stone en su lista de los mejores 500 discos de la historia. <br><br>
+                        
+                        A este le siguieron sus dos discos de 2021, Chemtrails over the Country Club y Blue Banisters, donde evolucionó hacia un sonido que recoge la herencia del folk norteamericano. <br><br>
+                        
+                        En 2021, también se publicó su libro de poesía, Violet hace el puente sobre la hierba, que fue muy bien acogido por la crítica literaria: y anunció su retiro de las redes sociales, al considerarlo un elemento disruptivo en su vida, y que le impedía concentrarse al ciento por ciento en su trabajo. <br><br>
+                        
+                        A finales de 2022, se anuncia su nuevo álbum, Did You Know That There s A Tunnel Under Ocean Blvd, que se lanzará al año siguiente.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="text-center">
     <a href="http://127.0.0.1:5500/proyecto_final.html" class="btn btn-primary">REGRESAR</a>
+    </div>
+
+    <br><br>
 
     <footer class="footer bg-dark text-white text-center py-3">
         <div class="container">

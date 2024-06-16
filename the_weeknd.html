@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>the Weeknd - Cantantes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+            max-width: 300px;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .custom-box {
+            background-color: lightgray;
+            border: 1px solid lightslategray;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">CANTANTES</a>
@@ -16,25 +45,112 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">SPOTIFY</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/proyecto_final.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TIENDA OFICIAL</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/lana.html">LANA DEL REY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WIKIPEDIA</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/taylor.html">TAYLOR SWIFT</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://open.spotify.com/intl-es/artist/1Xyo4u8uXC1ZmMpatF05PJ?autoplay=true">SPOTIFY</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.theweeknd.com/">TIENDA OFICIAL</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://es.wikipedia.org/wiki/The_Weeknd">WIKIPEDIA</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
-            <h1 class="display-4">LOS MEJORES CANTANTES</h1>
+            <h1 class="display-4">THE WEEKND</h1>
         </div>
     </div>
-    
+
+    <div class="container mt-5">
+        <div class="image-container">
+            <div class="col-md-3 col-sm-6">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://resources.sanborns.com.mx/imagenes-sanborns-ii/1200/602508818387.jpg?scale=500&qlty=75" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLxZKjUhKS8nITQImsdeVRq0g3wX_-Ae6jHg&s" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://lastfm.freetls.fastly.net/i/u/300x300/e13437ab4c8ebd7603289739b9f194f7.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1ea8e5125647899.61de0127430db.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/the-weeknd-1641825320.jpg?crop=0.5xw:1xh;center,top&resize=640:*" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://pbs.twimg.com/media/E9kTDZTXIAU477e.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <img src="https://preview.redd.it/dztexpilhsh91.png?auto=webp&s=19f0da27146aa51634f13d0a3e607849f9a68215" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="custom-box">
+                    <h2 class="text-center">BIBLIOGRAFIA</h2>
+                    <p class="text-justify">
+                        Tras el nombre de The Weeknd , se encuentra Abel Makkonen Tesfaye (Ontario, 1990) hijo único de Makkonen y Samra Tesfaye. <br><br>
+
+                        De ascendencia etíope, Abel tuvo una infancia complicada: su padre abandonó la familia, su madre fue encadenando múltiples trabajos para sacar a la familia, que compaginó con estudios en la escuela nocturna,  mientras era cuidado por su abuela y gracias a  ella, habla de manera fluida el amhárico. Comenzó a consumir drogas a los 11 años, de fumar marihuana a consumo de Ketamina o MDMA, algún robo en supermercado y dejó de estudiar “un fin de semana”  con un amigo. Y de esa deserción viene su nombre artístico, que fue modificado para no entrar en conflicto con la banda canadiense The weekend. <br><br>
+
+                        Aunque inicialmente comenzó a trabajar con Jeremy Rose, relación que no se llega a consolidar por diferencias entre ambos, The Weeknd comienza a hacer ruido con un tres sencillos que subió a Youtube y con la ayuda indirecta, se le incluyó en un blog de canciones del rapero Drake. Lanzaría el mixtape House of Balloons en 2011, que le llevaría de gira por diferentes festivales en Canadá. Ese año lanzaría dos mixtape más: Thursday y Echoes of silence , lo que le dio a conocer popularmente como Balloons trilogy. <br><br>
+
+                        Tras esto participaría en una gira que le llevaría a participar en festivales por todo el mundo como Coachella (Estados Unidos), Primavera Sound (España) o Wireless Festival (Reino Unido), además de tocar en ciudades como New York, París o Bruselas. <br><br>
+
+                        A finales de 2012, junto a Republic Records, forma su marca XO y lanza el recopilatorio Trilogy, y se reconcilia con Rose acreditándole en los temas de House of Balloons. El álbum fue platino en Usa y doble platino en Canadá. <br><br>
+
+                        Kiss Land , sería su siguiente álbum en 2014, un año donde participó y colaboró con Drake o Justin Timberlake , cover del Drunk in love de Beyoncé, una gira multitudinaria donde creó expectación al ir revelando singles nuevos a medida que pasaba el tiempo. Un año que acabaría con Earned it,sencillo de la la Banda sonora de la adaptación al cine de la trilogía literaria Cincuenta sombras de grey . <br><br>
+
+                        Chapter III (2015), su primer álbum de estudio, seguiría la estela de ventas de sus anteriores álbumes y cuyos singles The hills, Can´t feel my face y Earned itocuparon los primeros puestos en la lista Hot R&B Billboard, el primer artistas en la historia de esta lista en conseguirlo. <br><br>
+
+                        Beauty behind the madness , siguió confirmando el éxito del canadiense, debutando ya como solista en el programa de Amy Schumer (Amy Schumer, Saturday Night) donde interpretó junto a Ariana Grande el tema Love me harder. Se convirtió en el álbum con más reproducciones en streaming y como uno de los 50 mejores álbumes de 2015 según la revista Rolling stones. También hay que citar su exitoso sencillo Starboy, en colaboración con el dúo francés Daft Punk. <br><br>
+
+                        My Dear Melancholy llegaría en 2018 y After hours  en 2019. Además colaboro junto a Kendrick Lamar en el álbum de la película Black Panther . <br><br>
+
+                        The Weeknd se ha inspirado en artistas como R. Kelly , Prince , Michael Jackson , con una fantástica versión de su  , Dirty Diana, o incluso David Bowie . Compone letras llenas de sentimientos, con un tono de voz muy parecido al de Michael Jackson, llena de ecos tristes y un falsete registrado. Su característico peinado era una seña de identidad, hasta que se rapó en 2016. <br><br>
+
+                        Ha colaborado con multitud de artistas, como Lana del Rey , Kanye West , SZA y Travis Scott – es fan de la saga de Juego de tronos y los tres lanzaron la canción .Power is Power para la temporada final de la serie - entre muchos. Ha recibido elogios de muchos de ellos, como del gran Babyface y ha ganado cuatro  Premios Grammy, nueve Billboard Music Awards, dos American Music Awards, nueve Juno Awards, y ha sido nominado a un Óscar. Además de poner la música en el desfile de Victoria Secret de 2016. <br><br>
+
+                        Ha participado en la película Diamantes en bruto junto Adam Sandler , interpretándose  así mismo <br><br>
+
+                        En el terreno sentimental, mantiene una relación en la actualidad con la modelo Bella Hadid, que interrumpieron en 2016 y que dio pie a su romance con Selena Gomez que duro casi un año. <br><br>
+
+                        En 2022 lanzó Dawn FM, donde reincide en el sonido de sintetizadores y la inspiración en el synth-pop neochontero. En ese año, igualmente, desarrolló junto a Sam Levinson y Amy Seimetz, el creador de la exitosa Euphoria, una serie de televisión, HBO, The Idol, en la que también participaría como actor, junto a Lily-Rose Depp. <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="text-center">
     <a href="http://127.0.0.1:5500/proyecto_final.html" class="btn btn-primary">REGRESAR</a>
+    </div>
+
+    <br><br>
 
     <footer class="footer bg-dark text-white text-center py-3">
         <div class="container">
